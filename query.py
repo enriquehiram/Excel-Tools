@@ -16,6 +16,10 @@ def finding(file, xlsheet, word):
             if info.value == word:
                 goal = hoja.cell(row = i, column = j, )
     return goal
+	
+def testo():
+	a = "me la pelas"
+	return (a)
 
 # '''Al final lo se se puede hacer en grupo, se puede hacer por uno solo'''
 # ''' Obtiene una celda resultado de la intersección de dos valores dados
